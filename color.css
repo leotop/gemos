@@ -1,0 +1,12 @@
+/*цвет фона */
+.redBack{
+    background-color: #53555A !important;
+}
+/* цвет навигационной цепочки*/
+.crumps .active{
+    color: #FFFFFF !important;
+}
+/* цвет линии*/
+.redBack .line {
+    background-color: #F00000 !important;
+}
