@@ -2065,3 +2065,13 @@ footer{
 .industrial_premises {
    margin-left: 10px;
 }
+
+@media (min-width: 970px) {
+    .mainSlide{
+        display: none;
+    }
+    .wrapper_2{
+        margin-top: 20px;
+    }
+
+}
