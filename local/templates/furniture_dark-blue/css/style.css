@@ -61,7 +61,7 @@ a {
 }
 .wrapper{
     background-color: #fff;
-    min-width: 1200px!important;
+    min-width: 980px!important;
 }
 
 header{
@@ -2062,11 +2062,20 @@ footer{
     margin-right: 10px;
 }
 
+@media (max-width: 1000px) {
+    .mainSlide{
+        display: none;
+    }
+    .wrapper_2{
+        margin-top: 20px;
+    }
+
+}
 .industrial_premises {
    margin-left: 10px;
 }
 
-@media (min-width: 970px) {
+@media (min-width: 1000px) {
     .mainSlide{
         display: none;
     }
