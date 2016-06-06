@@ -2066,7 +2066,7 @@ footer{
    margin-left: 10px;
 }
 
-@media (min-width: 970px) {
+@media (max-width: 1000px) {
     .mainSlide{
         display: none;
     }
