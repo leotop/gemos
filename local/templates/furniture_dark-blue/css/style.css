@@ -202,7 +202,7 @@ nav li {
 }
 #a_cap .header-contacts{
     float: right;
-    width: 520px;
+    width: 440px;
     right: 0;
     position: absolute;
     height: 50px;
@@ -2057,30 +2057,32 @@ footer{
     margin: -88px auto 0;
     padding: 0;
 }
-
+}
 .industrial_building {
     margin-right: 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) and (min-width: 200px)  {
     .mainSlide{
         display: none;
     }
     .wrapper_2{
         margin-top: 20px;
     }
+    header{
+        width: 130%;
+    }
+}
 
+@media (min-width: 900px) and (max-width: 1100px){
+    .mainSlide{
+        display: none;
+    }
+    .wrapper_2{
+        margin-top: 20px;
+    }
 }
 .industrial_premises {
    margin-left: 10px;
 }
 
-@media (min-width: 1000px) {
-    .mainSlide{
-        display: none;
-    }
-    .wrapper_2{
-        margin-top: 20px;
-    }
-
-}
