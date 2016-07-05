@@ -220,6 +220,7 @@
         ),
         false
     );?>
+</div>
 <?$this->EndViewTarget();?>
 <?/*$this->SetViewTarget('breadcrump');?>
     <?$APPLICATION->IncludeComponent(
